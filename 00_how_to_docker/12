@@ -1,0 +1,4 @@
+#!/bin/bash
+## test ✗ docker exec -it spawning-pool msql -u root -pKerrigan zerglings
+docker run --name spawning-pool  --restart always -v hatchery:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -d mysql
+

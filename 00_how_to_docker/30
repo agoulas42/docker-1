@@ -1,0 +1,4 @@
+#!/bin/bash
+docker-machine ssh Char "docker service scale marines=20"
+
+#run docker-machine ssh Char "docker service -logs -f marines" to check logs

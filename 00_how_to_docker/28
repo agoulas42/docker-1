@@ -1,0 +1,2 @@
+#!/bin/bash
+docker-machine ssh Char "docker service create -d --name marines --network overmind --replicas 2 -e OC_USERNAME=agoulas42 -e OC_PASSWD=agoulas42 42school/marine-squad"

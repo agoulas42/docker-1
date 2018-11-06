@@ -1,0 +1,3 @@
+#!/bin/bash
+#force l arret et la suppression de tous les container mais si ils ne sont pas accessible
+docker container rm --force $(docker container ls -aq)

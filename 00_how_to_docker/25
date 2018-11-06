@@ -1,0 +1,4 @@
+#!/bin/bash
+# doit etre effectuer dans une swarn manager
+
+docker-machine ssh Char "docker service ls"

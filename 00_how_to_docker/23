@@ -1,0 +1,4 @@
+# test run docker-machine ssh Char "docker network ls"
+
+docker-machine ssh Char "docker network create -d overlay overmind"
+

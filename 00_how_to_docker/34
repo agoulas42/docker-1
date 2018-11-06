@@ -1,0 +1,2 @@
+#!/bin/bash
+docker-machine kill Aiur && (yes | docker-machine rm Aiur)
